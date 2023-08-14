@@ -1,0 +1,99 @@
+.watchlist-container {
+    text-align: center;
+    background-image: linear-gradient(rgb(202, 222, 212), rgb(48, 195, 146));
+    min-height: 90vh;
+}
+
+.watchlist-header {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.watchlist-main {
+    flex: 1;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    /* Adjust the top position as needed */
+}
+
+.watchlist-movie-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.watchlist-movieTitleButton {
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+
+.watchlist-movieTitle {
+    /* Other styles for movie titles */
+    /* Prevent the text from wrapping to multiple lines */
+    white-space: nowrap;
+}
+
+.watchlist-movieTitle:hover {
+    color: gray;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+
+.watchlist-movie-image-container {
+    position: relative;
+}
+
+.images {
+    width: 250px;
+    height: 250px;
+}
+
+.watchlist-removeOverlay {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: 0px solid transparent;
+    position: absolute;
+    font-size: 15px;
+    top: 2%;
+    left: 80%;
+}
+
+.remove:hover {
+    color: rgb(255, 0, 0);
+
+}
+
+.btn {
+    padding: 30px;
+}
+
+/* responsive */
+
+@media (max-width: 768px) {
+    .watchlist-movie-list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .movie-list img {
+        width: 100%;
+        height: auto;
+    }
+
+    .watchlist-removeOverlay {
+        color: turquoise;
+        background-color: transparent;
+        border: 0px solid transparent;
+        position: absolute;
+        font-size: 25px;
+        top: 2%;
+        left: 69%;
+    }
+}

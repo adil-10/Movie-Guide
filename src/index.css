@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+
+.header {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    /* Styles for h1 */
+    text-align: center;
+}
+
+.header-nav {
+    /* Styles for nav */
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.header-nav .links {
+    /* give it its own flex conatiner, Add gap between links */
+    display: flex;
+    gap: 10px;
+}

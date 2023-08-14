@@ -1,0 +1,143 @@
+.homepage-container {
+    text-align: center;
+    background-image: linear-gradient(rgb(202, 222, 212), rgb(48, 195, 146));
+    min-height: 90vh;
+}
+
+
+.homepage-header {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.homepage-main {
+    padding: 20px;
+}
+
+.homepage-footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.homepage-movie-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding-top: 15px;
+}
+
+.homepage-movie-title-button {
+
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+
+.homepage-movieTitle {
+    /* Other styles for movie titles */
+    /* Prevent the text from wrapping to multiple lines */
+    white-space: nowrap;
+}
+
+.homepage-movieTitle:hover {
+    color: gray;
+    background-color: transparent;
+    border: 0px solid transparent;
+}
+
+.homepage-movie-image-container {
+    position: relative;
+}
+
+.homepage-images {
+    width: 250px;
+    height: 250px;
+}
+
+.homepage-heart-icon-overlay {
+    color: turquoise;
+    background-color: transparent;
+    border: 0px solid transparent;
+    position: absolute;
+    font-size: 15px;
+    top: 2%;
+    left: 80%;
+
+
+}
+
+.homepage-heart-icon:hover {
+    color: red;
+}
+
+.homepage-search-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding-top: 15px;
+}
+
+.homepage-heart-icon-overlay-search {
+    color: turquoise;
+    background-color: transparent;
+    border: 0px solid transparent;
+    position: absolute;
+    font-size: 15px;
+    top: 2%;
+    left: 80%;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.search-input-container {
+    background-color: whitesmoke;
+    margin-right: 5px;
+    width: 150px;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: groove;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-image: initial;
+}
+
+.search-button {
+
+
+    box-sizing: border-box;
+    border-width: 3px;
+    border-style: groove;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-image: initial;
+}
+
+/* responsive */
+
+@media (max-width: 768px) {
+    .homepage-movie-list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    /* .homepage-movie-list img {
+        width: 100%;
+        height: auto;
+    } */
+
+    .homepage-movie-list img {
+        width: 100%;
+        height: auto;
+    }
+
+    .homepage-heart-icon-overlay {
+        color: turquoise;
+        background-color: transparent;
+        border: 0px solid transparent;
+        position: absolute;
+        font-size: 25px;
+        top: 2%;
+        left: 90%;
+    }
+}

@@ -1,0 +1,26 @@
+.userData-main {
+    text-align: center;
+    background-image: linear-gradient(rgb(202, 222, 212), rgb(48, 195, 146));
+    min-height: 90vh;
+    display: flex;
+}
+
+.userData-header {
+    /* padding-bottom: 42%; */
+}
+
+.userData-input-container {}
+
+.userData-input-container {
+    background-image: linear-gradient(rgb(209, 222, 202), rgb(48, 80, 195));
+    /* width: 10%; */
+    margin-top: 12.5%;
+    height: 100px;
+    padding: 100px;
+    margin-left: 38%;
+}
+
+.input-container {
+    width: 200px;
+    margin-bottom: 15px;
+}
